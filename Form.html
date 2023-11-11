@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ApexUrban Shoes</title>
+    <link rel="stylesheet" href="HomePage.css">
+    <link rel="stylesheet" href="Form.css">
+    <link rel="shortcut icon" href="./favicon_io (3)/favicon.ico">
+</head>
+<body>
+    
+    <div class="NavBar">
+        <nav>
+            <ul>
+                <li>
+                    <img src="./Images/ShoeLogo-removebg-preview.png" alt="Logo">
+                </li>
+                <li>
+                    <div class="search-bar">
+                        <input type="text" placeholder="Search...">
+                        <button type="submit">Search</button>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+
+
+        <nav>
+            <ul>
+                <li><a href="HomePage.html">Home</a></li>
+                <li><a href="Gallery.html">Shoe Gallery</a></li>
+                <li><a href="Form.html">Shoe Form Page</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    
+    <br>
+    
+    <div id="FormContainer">
+        <div id="Form">
+            <h1>Shoe Order Form</h1>
+            <br>
+            <form action="HomePage.html" method="post">
+                <label for="firstname">First Name:</label>
+                <input type="text" id="firstname" name="firstname" required>
+                <br><br>
+                
+                <label for="lastname">Last Name:</label>
+                <input type="text" id="lastname" name="lastname" required>
+                <br><br>
+            
+            <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br><br>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <br><br>
+        
+        <label for="shoeType">Select the type of Shoe Below:</label>
+            <select id="shoeType" name="shoeType">
+                <option value="Select...">Select...</option>
+                <option value="Air Jordan 4 Retro Red Cement">Air Jordan 4 Retro Red Cement</option>
+                <option value="Air Jordan 4 Retro “Red Thunder”">Air Jordan 4 Retro “Red Thunder”</option>
+                <option value="Jordan 4 Retro Military Black">Jordan 4 Retro Military Black</option>
+                <option value="Air Jordan 4 Retro SE 'Black Canvas'">Air Jordan 4 Retro SE 'Black Canvas'</option>
+                <option value="Jordan 1 Retro OG High University Blue">Jordan 1 Retro OG High University Blue</option>
+                <option value="Air Jordan Retro 1 High OG Casual Shoes">Air Jordan Retro 1 High OG Casual Shoes</option>
+                <option value="Jordan 1 Retro High Track Red">Jordan 1 Retro High Track Red</option>
+                <option value="Jordan 1 Retro High OG Lucky Green">Jordan 1 Retro High OG Lucky Green</option>
+                <option value="Nike Dunk Low University Blue">Nike Dunk Low University Blue</option>
+                <option value="Nike Dunk Low Court Purple">Nike Dunk Low Court Purple</option>
+                <option value="Nike Dunk Low GS 'Halloween'">Nike Dunk Low GS 'Halloween'</option>
+                <option value="Womans Nike Dunk Low 'Light Orewood Brown'">Womans Nike Dunk Low 'Light Orewood Brown'</option>
+            </select>
+        
+            <br>
+            <br>
+
+        <label for="comments">Comments:</label>
+
+            <br>
+        
+        <textarea name="comments" id="comments" cols="50" rows="4"></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+        </div>
+    </div>
+    
+    <br>
+
+    <footer>
+        <p>Contact Information: ApexUrban@gmail.com</p>
+        <p>&copy; 2023 ApexUrban Shoes</p>
+        <p>Credits: Designed by Diego Esquivias</p>
+    </footer>
+    
+</form>
+</body>
+</html>

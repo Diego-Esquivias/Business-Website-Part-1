@@ -1,0 +1,27 @@
+.image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.image-item {
+    overflow: hidden;
+    border-radius: 8px;
+    padding: 10px;
+    font-family: League;
+}
+
+.image-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-title {
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
